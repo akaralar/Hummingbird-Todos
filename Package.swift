@@ -20,10 +20,7 @@ let package = Package(
 				.product(name: "ArgumentParser", package: "swift-argument-parser"),
 				.product(name: "Hummingbird", package: "hummingbird"),
 			],
-			path: "Sources/App",
-			swiftSettings: [
-				.enableUpcomingFeature("StrictConcurrency")
-  			]
+			path: "Sources/App"
 		),
 		.testTarget(
 			name: "AppTests",

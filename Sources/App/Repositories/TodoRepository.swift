@@ -4,7 +4,7 @@
 import Foundation
 
 
-protocol TodoRepository {
+protocol TodoRepository: Sendable {
 	func create(title: String, order: Int?, urlPrefix: String) async throws -> Todo
 	func get(id: UUID) async throws -> Todo?
 	func list() async throws -> [Todo]
