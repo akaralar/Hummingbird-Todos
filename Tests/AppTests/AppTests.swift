@@ -11,6 +11,7 @@ final class AppTests: XCTestCase, @unchecked Sendable {
         let hostname = "127.0.0.1"
         let port = 0
         let logLevel: Logger.Level? = .trace
+		let inMemoryTesting: Bool = false
     }
 
 	struct CreateRequest: Encodable {
