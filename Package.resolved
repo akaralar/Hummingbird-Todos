@@ -1,5 +1,5 @@
 {
-  "originHash" : "2d84a0b448d54d30797ed80d6d756cc90ca1ca270a639f36d06f6efd5b262fec",
+  "originHash" : "a0e633968dcb36c9b8c2d8f6d41982a268920a3b4d78bd1ed50e59d0de6fe106",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "d4f792d209f02b26a17c0105751220da65207fb2",
         "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "postgres-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vapor/postgres-nio.git",
+      "state" : {
+        "revision" : "cd5318a01a1efcb1e0b3c82a0ce5c9fefaf1cb2d",
+        "version" : "1.22.1"
       }
     },
     {
@@ -62,6 +71,15 @@
       "state" : {
         "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
         "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "81bee98e706aee68d39ed5996db069ef2b313d62",
+        "version" : "3.7.1"
       }
     },
     {
